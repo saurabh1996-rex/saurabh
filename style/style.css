@@ -1244,14 +1244,16 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-column-gap: 2rem;
-            column-gap: 2rem;
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
   }
   .footer__social {
-    justify-self: flex-end;
+    -ms-grid-column-align: right;
+        justify-self: right;
   }
   .footer__copy {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
+    color: #fff;
   }
 }
 
